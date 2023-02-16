@@ -1,0 +1,183 @@
+@font-face {
+     font-family: "Baumans";
+     src: url("Baumans/Baumans-Regular.ttf") format("truetype");
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+@font-face {
+     font-family: "Manrope";
+     src: url("Manrope/Manrope.ttf") format("truetype");
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+
+body{
+	background-color: #51FF4E;
+	background-image: url("images/background.png");
+	margin-left: 0vw;
+	margin-right:0vw;
+	margin-bottom:0vw;
+	font-family: Manrope;
+}
+
+.icon_img{
+	
+	height:17px;
+	width:17px;
+}
+.icon_text{
+	left:3px;
+}
+.dropdown{
+	position: relative;
+    	display: inline-block;
+    	min-width: 80px;
+    	font-size: 17px;
+    	max-height:40px;
+}
+.dropdown-entered{
+	background: #fff;
+	padding-bottom:15px;
+	border-radius:5px;
+	margin-left:10px;
+	max-width: 60px;
+	vertical-align: middle;
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-bottom:5px;
+
+	}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	min-width: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	min-width: 100px;
+	margin-left:10px;
+}
+
+.dropdown:hover .dropwon-entered {
+	background-color: #3e8e41;
+	min-width: 100px;
+	margin-left:10px;
+}
+
+
+.round{
+	border-radius:100px;
+	box-shadow:0 0 0 3px white;
+	height:200px;
+	width:200px;
+	text-align: center;
+}
+
+.foto{
+
+	text-align: center;
+	margin-top:30vh;
+	margin-bottom:-10vh;
+	z-index: 1;
+	float: center;
+}
+
+
+.content{
+	background: white;
+	border-radius: 40px;
+	margin-top:-100px;
+	padding-bottom:500px;
+	padding-top:13vh;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: center;
+	
+}
+
+.main_text{
+	font-family: Baumans;
+	font-size:1vw;
+	text-align: center;
+	z-inder:-1;
+	
+}
+
+
+h1,h2{
+	text-align: center;
+}
+
+.typing{
+	color:var(--skin-color);
+}
+
+.about_me{
+	box-shadow:-1px 0px 18px 12px rgba(34, 60, 80, 0.2);
+	border-radius: 30px;
+
+	margin-left:auto;
+	margin-right:auto;
+
+	margin-top:50px;
+	padding-top:3vh;
+	padding-bottom:3vh;
+	max-width: 70vw;
+	min-width:40vw;
+}
+
+.color_text{
+	color:var(--skin-color);
+	text-decoration: none;
+}
+ul{
+	margin-right:50px;
+
+}
+li{
+	font-size: 3vh;
+	list-style-type: none;
+	padding-top:20px;
+	text-align:left;
+}
+
+.list{
+	list-style-type:none;
+}
+footer{
+	background: #304146;
+	margin-top:-100px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:-1vh;
+	
+}
+.footer_text{
+	font-family: Manrope;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom:0vh;
+	padding:40px;
+	color:white;
+}
